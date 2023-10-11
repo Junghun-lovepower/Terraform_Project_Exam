@@ -1,4 +1,4 @@
-/* locals {
+locals {
   cidr             = "192.168.0.0/16"
   azs              = ["ap-northeast-2a", "ap-northeast-2c"]
   public_subnets   = ["192.168.1.0/24", "192.168.2.0/24"]
@@ -12,4 +12,4 @@
   any_protocol     = "-1"
   tcp_protocol     = "tcp"
   all_network      = "0.0.0.0/0"
-} */
+}

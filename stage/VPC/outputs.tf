@@ -1,5 +1,5 @@
 # BastionHost EIP Output
-/* output "EC2_Pub_IP" {
+output "EC2_Pub_IP" {
   value       = aws_eip.BastionHost_eip.public_ip
   description = "EC2 Instance Public IP Address"
 }
@@ -42,7 +42,7 @@ output "HTTP_HTTPS_SG" {
 output "RDS_SG" {
   value       = module.RDS_SG.security_group_id
   description = "SDS Security-Group Output"
-} */
+}
 
 
 //=================================================//
